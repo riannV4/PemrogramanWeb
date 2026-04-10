@@ -1,18 +1,35 @@
 body {
-  background-color: #ffffff;
+  background-color: #818ee0;
 }
 
 .header {
   display: flex;
   align-items: center;
-  background-color: #dedcdc;
-  padding: 25px 40px;
+  background-color: rgba(83, 209, 244, 0.8);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px) /* Safari support */;
+  padding: 10px 20px;
+  border-radius: 20px;
+  justify-content: center;
 }
 
 .navigasi ul {
   display: flex;
   list-style: none;
-  gap: 20px;
+  gap: 35px;
+}
+
+.navigasi ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: o.5px;
+  transition: color 0.5s ease;
+}
+
+.navigasi ul li a:hover {
+  color: #fafafa;
 }
 
 .gambar {
