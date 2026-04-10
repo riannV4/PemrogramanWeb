@@ -1,5 +1,18 @@
 body {
-  background-color: #f6f6f6;
+  background-color: #ffffff;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #dedcdc;
+  padding: 25px 40px;
+}
+
+.navigasi ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
 }
 
 .gambar {
