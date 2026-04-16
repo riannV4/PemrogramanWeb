@@ -1,11 +1,11 @@
 body {
-  background-color: #818ee0;
+  background-color: #cacff1;
 }
 
 .header {
   display: flex;
   align-items: center;
-  background-color: rgba(83, 209, 244, 0.8);
+  background-color: rgba(139, 220, 243, 0.8);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px) /* Safari support */;
   padding: 10px 20px;
