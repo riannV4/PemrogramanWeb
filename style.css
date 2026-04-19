@@ -36,3 +36,9 @@ body {
   width: 200px;
   height: auto;
 }
+
+.atas h1 {
+  font-size: 36px;
+  color: #333333;
+  text-align: center;
+}
