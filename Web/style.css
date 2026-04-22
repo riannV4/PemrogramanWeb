@@ -67,11 +67,12 @@ body {
   align-items: center;
   gap: 10px;
   text-decoration: none;
-  color: #333333;
+  color: #000000;
   font-size: 18px;
   font-weight: 500;
   gap: 9px;
   margin-right: 150px;
+  transition: color 0.5s ease;
 }
 
 .item img {
@@ -89,4 +90,8 @@ body {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px) /* Safari support */;
   border-radius: 20px;
+}
+
+.item img a:hover {
+  color: #fafafa;
 }
