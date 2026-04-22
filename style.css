@@ -32,9 +32,11 @@ body {
   color: #fafafa;
 }
 
-.gambar {
+.atas img {
   width: 200px;
-  height: auto;
+  height: 200px;
+  display: block;
+  margin: auto;
 }
 
 .atas h1 {
