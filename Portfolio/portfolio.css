@@ -15,11 +15,28 @@ body {
   background-repeat: no-repeat;
 }
 
-.atas h1 {
-  font-size: 36px;
+.header h1 {
+  font-family: "Poppins", sans-serif;
   color: #333333;
   text-align: top;
   margin-top: 30px;
   margin-bottom: 20px;
   font-size: 60px;
+}
+
+.header .navigasi ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+  list-style: none;
+}
+
+.navigasi ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: color 0.5s ease;
 }
