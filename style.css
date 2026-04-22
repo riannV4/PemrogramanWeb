@@ -1,5 +1,10 @@
 body {
-  background-color: #9ca6e7;
+  background: radial-gradient(
+    circle at center,
+    #f0f0f0 0%,
+    #679eeb 50%,
+    #1e90ff 100%
+  );
 }
 
 .header {
