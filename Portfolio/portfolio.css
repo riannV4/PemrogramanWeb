@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+
+  min-height: 100vh;
+  background-image: url(Portfolio_bg.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.atas h1 {
+  font-size: 36px;
+  color: #333333;
+  text-align: top;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 60px;
+}
