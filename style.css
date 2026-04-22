@@ -44,3 +44,40 @@ body {
   color: #333333;
   text-align: center;
 }
+
+.tengah p {
+  font-size: 24px;
+  color: #333333;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #333333;
+  font-size: 18px;
+  font-weight: 500;
+  gap: 9px;
+  margin-right: 90px;
+}
+
+.item img {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  border-radius: 80px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: rgba(139, 220, 243, 0.8);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px) /* Safari support */;
+  border-radius: 20px;
+}
