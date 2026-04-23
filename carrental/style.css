@@ -97,3 +97,16 @@ body {
   height: 250px;
   object-fit: cover;
 }
+
+.question {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+  padding: 2em 1em;
+}
+
+.question h2 {
+  font-size: 2em;
+}
