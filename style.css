@@ -10,7 +10,7 @@ body {
 .header {
   display: flex;
   align-items: center;
-  background-color: rgba(139, 220, 243, 0.8);
+  background-color: rgba(139, 220, 243, 0.5);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px) /* Safari support */;
   padding: 10px 20px;
