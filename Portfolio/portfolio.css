@@ -9,8 +9,8 @@
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  margin-bottom: 30px;
-  background-image: url(Portfolio_new_bg.svg);
+  margin-bottom: 10px;
+  background-image: url(Portfolio_new2a_bg.svg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -20,7 +20,7 @@
 body {
   display: flex;
   flex-direction: column;
-  background-color: #e4ddd3;
+  background: linear-gradient(to right, #004aad, #733494, #cb6ce6);
 }
 
 .header {
@@ -31,7 +31,7 @@ body {
 
 .header h1 {
   font-family: "Poppins", sans-serif;
-  color: #333333;
+  color: #fefefe;
   margin-top: 30px;
   margin-bottom: 10px;
   font-size: 60px;
@@ -47,7 +47,7 @@ body {
 
 .navigasi ul li a {
   text-decoration: none;
-  color: #000000;
+  color: #fefefe;
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 0.5px;
@@ -66,13 +66,13 @@ body {
 
 #search h2 {
   font-size: 28px;
-  color: #333333;
+  color: #fefefe;
   text-align: center;
 }
 
 #search p {
-  font-size: 18px;
-  color: #333333;
+  font-size: 20px;
+  color: #fefefe;
   text-align: center;
   margin-top: 1px;
 }
@@ -82,8 +82,8 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  padding: 50px 20px;
-  background-image: url(Portfolio_lanjutan_bg.svg);
+  margin-bottom: 10px;
+  background-image: url(Portfolio_new3_bg.svg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -93,6 +93,12 @@ body {
 #about h1 {
   font-family: "Poppins", sans-serif;
   font-size: 60px;
-  color: #333333;
+  color: #fefefe;
+  text-align: center;
+}
+
+#about p {
+  font-size: 20px;
+  color: #fefefe;
   text-align: center;
 }
