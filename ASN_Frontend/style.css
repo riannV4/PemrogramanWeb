@@ -73,7 +73,18 @@ body {
   justify-content: center;
 }
 
-.learning-path {
+.learning-path-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 1.5em;
+  align-content: center;
+  padding: 2em 1em;
+  align-items: start;
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.learning-path-list .learning-path {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -83,6 +94,19 @@ body {
   border-radius: 0.5em;
 }
 
-.learning-path .path-item {
-  display: flex;
+.learning-path-list .learning-path h2 {
+  font-size: 40px;
+  margin: 2em 0;
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+.learning-path-list .learning-path img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5em;
+}
+.learning-path-list .learning-path h3 {
+  margin: 0.5em 0;
+  color: #fafafa;
 }
