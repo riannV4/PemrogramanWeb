@@ -66,3 +66,16 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.title p {
+  font-size: 20px;
+  margin: 0.5em 0;
+  justify-content: center;
+}
+
+.learning-path {
+  display: grid;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
