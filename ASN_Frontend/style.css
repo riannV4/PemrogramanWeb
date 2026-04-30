@@ -96,17 +96,26 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: min(22rem, 100%);
+  width: 100%;
   border: 1px solid #000000;
   border-radius: 0.5em;
+  overflow: hidden;
 }
 
 .learning-path-list .learning-path img {
   width: 100%;
   height: 300px;
   border-radius: 0.5em;
+  object-fit: cover;
+  display: block;
 }
 .learning-path-list .learning-path h3 {
   margin: 0.5em 0;
   color: #fafafa;
+}
+
+.learning-path-list .learning-path p {
+  padding: 0.5em;
+  color: #fafafa;
+  text-align: center;
 }
