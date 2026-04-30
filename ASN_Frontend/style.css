@@ -84,6 +84,13 @@ body {
   margin: 0 auto;
 }
 
+.learning-path-list h2 {
+  font-size: 30px;
+  margin: 2em 0;
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
 .learning-path-list .learning-path {
   display: flex;
   justify-content: center;
@@ -94,16 +101,9 @@ body {
   border-radius: 0.5em;
 }
 
-.learning-path-list .learning-path h2 {
-  font-size: 40px;
-  margin: 2em 0;
-  grid-column: 1 / -1;
-  text-align: center;
-}
-
 .learning-path-list .learning-path img {
   width: 100%;
-  height: auto;
+  height: 300px;
   border-radius: 0.5em;
 }
 .learning-path-list .learning-path h3 {
